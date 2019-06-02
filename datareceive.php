@@ -17,8 +17,8 @@
     function analyze_sentiment($text)
     {
         // Create the Natural Language client
-    $serviceAccountPath   ="C:\Users\zubyrman\Downloads\TranslationIIT-89beea1b29cb.json";
-    $projectId = "translationiit-1557980969739";
+    $serviceAccountPath   ="ENTER YOUR GOOGLE PROJECT FILE";
+    $projectId = "PROJECT ID";
 
     # Instantiates a client
     $language = new LanguageClient([
